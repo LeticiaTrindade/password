@@ -36,11 +36,14 @@ function test() {
     } else {
         test4.src = 'assets/error.svg';
     }
-    
+
     if (numeros.test(password)) {
         test5.src = 'assets/check.svg';
     } else {
         test5.src = 'assets/error.svg';
     }
+
+    var text = document.getElementById('button');
+    text.innerHTML = 'Resultado';
 }
 

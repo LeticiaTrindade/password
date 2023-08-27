@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-*{font-family: 'Roboto Condensed', sans-serif;}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+*::selection{
+    background-color: rgba(148, 40, 139, 0.555);
+}
 
 body,
 html {
@@ -29,29 +36,30 @@ html {
     padding: 2rem;
 }
 
-h1{
+h1 {
     font-weight: bold !important;
 }
 
-#password-status p{
-        margin-bottom: 0 !important;    
+#password-status p {
+    margin-bottom: 0 !important;
 }
 
-#password-status div{
+#password-status div {
     padding: .2rem;
 }
 
-button{
-    color: white;
+h2 {
+    font-size: 1.5rem !important;
+    color: white !important;
     border-radius: 10px !important;
     border: none;
     padding: 0.2rem;
     margin: 1rem !important;
     background: rgb(0, 160, 176);
     background: linear-gradient(29deg, rgb(2, 228, 248) 0%, rgba(255, 41, 239, 1) 100%);
-
 }
 
-img{
+
+img {
     width: 1.5rem;
 }
