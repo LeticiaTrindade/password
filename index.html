@@ -26,15 +26,21 @@
          |______/ |______/ |______/ |______/  |___/
     
     -->
-    <div class="password_card">
+    <div class="password_card ">
         <h1>
             Teste a força da senha!
         </h1>
-        <p>Verifique se a sua senha realmente é segura! Uma boa senha deve conter no mínimo 8 caracteres,
+        <p >Verifique se a sua senha realmente é segura! Uma boa senha deve conter no mínimo 8 caracteres,
             misturando letras, números e símbolos.</p>
 
-        <div>
-            <label>Senha:</label> <input oninput="test()" id="password" placeholder="insira a senha aqui" />
+        <div class="d-flex align-items-center justify-content-center" >
+            <label>Senha:</label>
+            <div class="submit-line">
+                <input type="password" oninput="test()" id="password" placeholder="insira a senha aqui"  />
+                <button class="submit-lente" type="button" onclick="toggleEye()">
+                    <img id="eye" src="assets/eye-open.svg" alt="Toggle Eye"/>
+                </button>
+              </div>
         </div>
 
         <h2 id="button">Testar</h2>

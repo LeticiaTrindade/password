@@ -47,3 +47,16 @@ function test() {
     text.innerHTML = 'Resultado';
 }
 
+function toggleEye() {
+    var eye = document.getElementById("eye");
+    var test = 'assets/eye-close.svg';
+    var password = document.getElementById('password');
+    
+    if (eye.src.endsWith(test)) {
+        eye.src = 'assets/eye-open.svg';
+        password.type = 'password';
+    } else {
+        eye.src = 'assets/eye-close.svg';
+        password.type = 'text';
+    }
+}
