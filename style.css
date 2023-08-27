@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{font-family: 'Roboto Condensed', sans-serif;}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(0, 160, 176);
+    background: linear-gradient(29deg, rgba(0, 160, 176, 1) 0%, rgba(255, 41, 239, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.password_card {
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1{
+    font-weight: bold !important;
+}
+
+#password-status p{
+        margin-bottom: 0 !important;    
+}
+
+#password-status div{
+    padding: .2rem;
+}
+
+button{
+    color: white;
+    border-radius: 10px !important;
+    border: none;
+    padding: 0.2rem;
+    margin: 1rem !important;
+    background: rgb(0, 160, 176);
+    background: linear-gradient(29deg, rgb(2, 228, 248) 0%, rgba(255, 41, 239, 1) 100%);
+
+}
+
+img{
+    width: 1.5rem;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Password</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="d-flex justify-content-center">
+
+    <!-- SEJA BEM-VINDO AO MEU CÓDIGO! -->
+    <!--
+          /$$      /$$$$$$  /$$      /$$    /$$     $$
+         | $$     | $$     | $$     | $$    \  $$  $$
+         | $$     | $$$$   | $$     | $$     \   $$
+         | $$     | $$     | $$     | $$      |  $$
+         | $$$$$$ | $$$$$$ | $$$$$$ | $$$$$$  |  $$     
+         |______/ |______/ |______/ |______/  |___/
+    
+    -->
+    <div class="password_card">
+        <h1>
+            Teste a força de sua senha!
+        </h1>
+        <p>Verifique se a sua senha realmente é segura! Uma boa senha deve conter no mínimo 8 caracteres,
+            misturando letras, números e símbolos.</p>
+
+        <div>
+            <label>Senha:</label> <input oninput="test()" id="password" placeholder="insira a senha aqui" />
+        </div>
+
+        <button onclick="">Testar</button>
+        <div id="password-status">
+            <div class="d-flex align-items-center"> <img id="test1" src="assets/default.svg" />
+                <p>Senha com 8 dígitos ou mais</p>
+            </div>
+            <div class="d-flex align-items-center"> <img id="test2" src="assets/default.svg" />
+                <p>Senha com letras minúsculas</p>
+            </div>
+            <div class="d-flex align-items-center"> <img id="test3" src="assets/default.svg" />
+                <p>Senha com letras maiúsculas</p>
+            </div>
+            <div class="d-flex align-items-center"> <img id="test4" src="assets/default.svg" />
+                <p>Senha com caracteres especiais</p>
+            </div>
+            <div class="d-flex align-items-center"> <img id="test5" src="assets/default.svg" />
+                <p>Senha com números</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
